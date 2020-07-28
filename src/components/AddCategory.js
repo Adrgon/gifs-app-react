@@ -6,7 +6,9 @@ export const AddCategory = ({setCategories}) => {
     const [inputValue, setImputValue]= useState("")
     const handleImputChange = (e) => {
         //console.log(e.target.value)
-        setImputValue(e.target.value)       
+        setImputValue(e.target.value)  
+        
+        console.log("handleInputchange llamado")
     }
 
     const handleSubmit = (e)=>{
